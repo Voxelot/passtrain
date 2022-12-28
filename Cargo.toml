@@ -1,0 +1,16 @@
+[package]
+name = "passtrain"
+version = "0.0.1"
+edition = "2021"
+license = "Zlib"
+authors = ["Brandon Kite <brandonkite92@gmail.com>"]
+homepage = "https://github.com/voxelot/passtrain"
+repository = "https://github.com/voxelot/passtrain.git"
+description = "Passtrainer is a cli app to help you learn new passwords"
+readme = "README.md"
+keywords = ["password", "memorization", "app", "cli", "tty"]
+
+[dependencies]
+crossterm = "0.25"
+inquire = "0.5.2"
+rand = "0.8"
